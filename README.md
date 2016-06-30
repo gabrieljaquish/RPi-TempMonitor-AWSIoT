@@ -1,4 +1,4 @@
-#Fermentaion Temprature Monitor
+#RPi Temprature Publisher
 ##What is it for?
 This lightweight piece of code is being developed to help remotely monitor the tempratures of fermentation vessels.  
 It is designed for use on a [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) running [Raspbian JESSIE](https://www.raspbian.org/)
