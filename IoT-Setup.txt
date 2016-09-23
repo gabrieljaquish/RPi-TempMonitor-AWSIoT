@@ -1,0 +1,20 @@
+Getting Started with Iot on RPi
+http://docs.aws.amazon.com/iot/latest/developerguide/iot-device-sdk-node.html
+
+curl -sLS https://apt.adafruit.com/add | sudo bash
+sudo apt-get install node
+sudo apt-get install npm
+cd ~
+mkdir certs
+cd certs 
+sudo wget https://www.symantec.com/content/en/us/enterprise/verisign/roots/VeriSign-Class%203-Public-Primary-Certification-Authority-G5.pem 
+cd ~
+mkdir app
+sudo git init
+sudo npm init
+sudo npm install aws-iot-device-sdk
+
+
+private.pem.key
+certificate.pem.crt
+root-CA.crt
